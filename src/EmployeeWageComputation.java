@@ -1,6 +1,6 @@
 public class EmployeeWageComputation
 {
-    public static void main(String args[])
+    public static void calculateTotalWage()
     {
         final int IS_PART_TIME = 1;
         final int IS_FULL_TIME = 2;
@@ -34,5 +34,10 @@ public class EmployeeWageComputation
 
         }
         System.out.println("Total wage for a month is " + totalWage);
+    }
+
+    public static void main(String[] args)
+    {
+        calculateTotalWage();
     }
 }
